@@ -62,7 +62,7 @@ const HeroSection = () => {
             border: `1px solid ${theme.border}`,
           }}
         >
-          Full Stack Web Developer (Fresher)
+          Full Stack Developer (Fresher)
         </motion.div>
 
         <motion.h1
