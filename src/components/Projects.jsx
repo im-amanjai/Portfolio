@@ -123,7 +123,7 @@ const Projects = () => {
               </div>
             </div>
             <a 
-              href="https://github.com/im-amanjai" 
+              href="https://portfolio-amanjai.vercel.app/" 
               target="_blank"
               rel="noreferrer"
               style={{ backgroundColor: theme.primary, color: '#fff', zIndex: 20 }}
