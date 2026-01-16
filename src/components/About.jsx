@@ -12,7 +12,7 @@ const About = () => {
   const stats = [
     { label: 'PROJECTS', value: '6+', icon: <FiCode /> },
     { label: 'TECHNOLOGIES', value: 'MERN', icon: <FiCode /> },
-    { label: 'DSA PRACTICE', value: 'Ongoing', icon: <FiCode /> },
+    { label: 'Ongoing', value: 'DSA', icon: <FiCode /> },
     { label: 'LEARNING', value: 'AI / ML', icon: <FiCode /> },
   ];
 
