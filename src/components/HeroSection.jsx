@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion, useInView } from "framer-motion";
 import { FiDownload } from "react-icons/fi";
-import { FaReact, FaNodeJs, FaHtml5, FaJs } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiPostman } from "react-icons/si";
+// import { FaReact, FaNodeJs, FaHtml5, FaJs } from "react-icons/fa";
+// import { SiMongodb, SiExpress, SiPostman } from "react-icons/si";
 import profilePic from "../assets/amannnn.png";
 import useTheme from "../context/ThemeContext";
 
@@ -29,15 +29,15 @@ const HeroSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
 
-  const techStack = [
-    { icon: <FaReact />, color: "#61DBFB", distance: 140, delay: 0 },
-    { icon: <FaNodeJs />, color: "#68A063", distance: 130, delay: 0.5 },
-    { icon: <SiMongodb />, color: "#47A248", distance: 160, delay: 1 },
-    { icon: <FaHtml5 />, color: "#E34F26", distance: 135, delay: 1.5 },
-    { icon: <SiExpress />, color: isDarkMode ? "#fff" : "#000", distance: 120, delay: 2 },
-    { icon: <FaJs />, color: "#F7DF1E", distance: 170, delay: 2.5 },
-    { icon: <SiPostman />, color: "#FF6C37", distance: 150, delay: 3 },
-  ];
+  // const techStack = [
+  //   { icon: <FaReact />, color: "#61DBFB", distance: 140, delay: 0 },
+  //   { icon: <FaNodeJs />, color: "#68A063", distance: 130, delay: 0.5 },
+  //   { icon: <SiMongodb />, color: "#47A248", distance: 160, delay: 1 },
+  //   { icon: <FaHtml5 />, color: "#E34F26", distance: 135, delay: 1.5 },
+  //   { icon: <SiExpress />, color: isDarkMode ? "#fff" : "#000", distance: 120, delay: 2 },
+  //   { icon: <FaJs />, color: "#F7DF1E", distance: 170, delay: 2.5 },
+  //   { icon: <SiPostman />, color: "#FF6C37", distance: 150, delay: 3 },
+  // ];
 
   return (
     <section
@@ -128,8 +128,8 @@ const HeroSection = () => {
           />
         </div>
 
-        {/* Orbiting Tech Icons */}
-{/* Orbiting Tech Icons */}
+        {/* Orbiting Tech Icons
+ Orbiting Tech Icons 
 {techStack.map((tech, i) => {
   const angle = (360 / techStack.length) * i;
 
@@ -160,7 +160,7 @@ const HeroSection = () => {
       </div>
     </motion.div>
   );
-})}
+})} */}
 
       </div>
 
