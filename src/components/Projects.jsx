@@ -17,6 +17,23 @@ const Projects = () => {
       tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "REST API"],
       type: "Project Management System"
     },
+        {
+      title: "HealthAI – Hybrid AI-Based Public Health Assistant",
+      description: "An AI-driven healthcare assistant that performs symptom-based risk assessment, emergency detection, voice-enabled triage, and nearby hospital recommendations using a hybrid rule-based and Gemini AI architecture.",
+      link: "https://github.com/im-amanjai/AI-based-Health-chatbot",
+      tech: [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Gemini AI",
+    "JWT",
+    "Material UI",
+    "Geoapify API",
+    "REST API"
+  ],
+      type: "AI Healthcare Assistant"
+    },
     {
       title: "ChatterHub",
       description: "A real-time chat application enabling users to communicate instantly through one-to-one and group conversations with secure authentication and seamless messaging experience.",
